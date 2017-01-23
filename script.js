@@ -10,7 +10,7 @@ $(document).ready(function(){
     
     // 2. On line 13 use jQuery to append "I live in NYC" to the h2 tag with the id four.
     $("#button2").click(function() {
-        $("h2").append("I live in NYC");
+        $("#four").append("I live in NYC");
     });
     
     // 3a. Write a click function for the button with id button3.
